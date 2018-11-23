@@ -219,7 +219,7 @@ input[type="submit"]:active {
 
 	main {
 		padding: 4em;
-		background: #fff url('../image/main.svg') no-repeat bottom right;
+		background: #fff url('image/main.svg') no-repeat bottom right;
 		background-size: 70%;
 	}
 
