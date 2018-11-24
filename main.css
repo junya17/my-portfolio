@@ -59,8 +59,15 @@ aside {
 .portfolio-container img {
 	width: 100%;
 	height: auto;
+	
+}
+
+.item {
+	padding: 0.3rem;
 	box-shadow: 2px 2px 5px rgb(103, 101, 101);
 }
+
+
 
 #hum {
 	width: 40px;
@@ -149,11 +156,15 @@ p {
 	font-weight: bold;
 	border-radius: 4px;
 	margin: 2em 0;
+	
 }
+
 
 .cta:hover {
 	background-color: #4474B9;
 }
+
+
 
 textarea,input {	
 	margin: 0;
@@ -249,6 +260,12 @@ input[type="submit"]:active {
 		display: inline-block;
 		font-size: 1.3em;
 		padding: .8em 3em;
+	}
+
+	.item:hover {
+		outline: 1rem solid #5B9BF8;
+		transform: scale(1.1);
+		outline-offset: 1rem;
 	}
 
 	h1 {
